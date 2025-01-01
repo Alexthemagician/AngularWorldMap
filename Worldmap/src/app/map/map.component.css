@@ -1,0 +1,64 @@
+#infoBlock {
+    background-color: rgba(255, 253, 163, 0.5);    
+    position:relative;
+    float: left;
+    border-radius: 2vw 3vw;
+    justify-content: left;
+    padding-right: 1vw;
+}
+
+ul {
+    color: rgb(87, 21, 53);
+}
+
+path:hover {
+    fill:rgb(87, 21, 53);
+}
+
+nav {
+    font-size: 3vw;
+    background-color: rgba(252, 124, 227, 0.3);    
+    padding-bottom: 2vh;
+    padding-left: 5vw;
+    padding-top: 1vw;    
+    margin-right: 30%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 2vw 3vw;     
+}
+
+nav:hover {
+    transform: scale(1.1);
+    color:azure;
+    box-shadow: 1vw 0.9vw 1vw azure;
+}
+
+a:hover {
+    color: rgb(224, 216, 230);
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-left: 5%;
+}
+
+#infoBlock:hover {
+    transform: rotate(5deg);
+    color: rgb(252, 3, 65);
+    box-shadow: 1vw 0.9vw 1vw azure;
+}
+
+#heading, #prop1, #prop2, #prop3, #prop4, #prop5, #prop6 {
+    display: flex;
+    flex: wrap;
+}
+
+.svgmap {
+    position: relative;
+    
+}
+
+ 
